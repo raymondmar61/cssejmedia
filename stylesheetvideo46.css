@@ -1,0 +1,28 @@
+#theForm {
+
+color:white;
+display: table;
+padding: 15px;
+background-color: #2C8F77;
+border: solid 2px black;
+
+}
+
+/* Create a table using CSS */
+.row {
+display: table-row;
+}
+
+/* I think it's <row> --> <label> */
+.row label {
+display: table-cell;
+padding: 2px;
+text-align:right;
+
+}
+
+/* I think it's <row> --> <input> */
+.row input {
+display: table-cell;
+padding: 2px;
+}

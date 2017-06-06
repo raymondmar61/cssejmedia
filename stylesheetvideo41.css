@@ -1,0 +1,34 @@
+ul {
+
+list-style: none; /* removes the actual black circle bullets */
+padding: 0; /* get rid of padding I believe associate with ul bullets */
+margin: 0; /* get rid of margins I believe associate with ul bullets */
+
+} 
+
+ul li a { /* good practice to put the HTML path.  All we really need is a */
+
+text-decoration: none; /* get rid of underlines in links */
+font-family: Georgia, "Times New Roman", Times, serif;
+background-color: #5c755e;
+color: white;
+
+display: block; /* convert anchor element which is inline to a block element */
+width: 80px;  /* set a width length for the block element */
+margin:5px; /* Creates space between the bullets */
+padding: 10px;  /* creates space between the font and the border */
+border: 1px solid red;
+border-radius: 2px;  /* curves the corner */
+text-align: center;
+height:25px;  /* set a height length for the block element */
+line-height: 25px;  /* compensates the height.  Match the height to center the text vertically */
+
+}
+
+/* Video 42 Create a hover effect when the cursor is over the link */
+ul li a:hover { /* good practice to put the HTML path.  All we really need is a */
+background-color: #d3d3d3;
+color: black;
+
+
+}

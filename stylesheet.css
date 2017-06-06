@@ -1,0 +1,25 @@
+/* Cascading Style Sheets is a style sheet language used for describing the look and formatting of a document written in a markup language.  Simple explanation adds style to HTML.  Control web pages look without changing your HTML. */
+/*  Each style is called a property {property: value1; value2; value3; . . . }  The semicolon is a break. */
+/*  We create a rule for h1.  h1 is a rule.  It's like a global rule. */
+/*  font color is {color:;} */
+
+/* three ways to mention color: primary colors, RGB rgb(240,28,235);, hexcode #ffcf79;
+/* 16 primary colors call by name: aqua, black, blue, fuchsia, gray, green, lime, maroon, navy, olive, purple, red, silver, teal, white, yellow */
+
+/* font-size sizes denote in pixes px, % (increase or decrease from default font size in pixes), em, keywords */
+/* keywords: xx-small, x-small, small which is 13px, medium which is 16px, large which is 18px, x-large, xx-large*/
+
+/* line-height property adds spaces between lines specified in pixes, %, or em. */
+
+body{color: green; font-family: verdana, Arial, Geneva, Arial Black; font-weight: bolder; background-color: #ffcf79; font-size: 25px;}  /* Default color is green.  Inheritance.  If an element has another color, the element color overrides body green color. */ /* font-family browser loads default font type priority from left to right.  If browser can't load all fonts, then browser loads default font type from user's computer settings.  Any element with its own font-family overrides the body font-family default font */ /* font-weight four choices: lighter, normal, bold, bolder */
+h1 {text-decoration: underline; font-size: 150%;} /* 150% or 1.5 * 25 = 37.5 increase over default font size; in this case default font size is 25px.  Relative measure from default font-size. */
+h2 {text-decoration: underline; font-size: 1.2em;} /* 1.2 * 25 = 30 increase over default font size; in this case default font size is 25px.  Relative measure from default font-size. */
+/* h1, h2 {text-decoration: underline;} /* options text-decoration underline, line-through, overline (line above text), underline overline, none */
+/* h1, h2 {border-bottom: 1px solid black;} */
+.classisanattribute {color: blue; font-size: 25px; font-family: Helvetica;} /* I removed the p in p.classisanattribute because two or more elements use the classisanattribute class. */
+p.purple {color: purple; font-size: 25px;}
+/* .anotherattribute {text-decoration: underline;} */
+p.paragraph1 {color: purple;}
+p.paragraph2 {color: purple;}
+p.paragraphslanted {color: purple; font-style: italic;} /* options font-style italic, oblique */
+p.paragraph3 {color: purple; font-size: 15px; line-height: 1.5em;}

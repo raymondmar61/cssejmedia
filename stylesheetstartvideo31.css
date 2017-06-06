@@ -1,0 +1,35 @@
+/* Elements are divided into a block element and an inline element.  */
+/* Block elements is an element extends from the left to the right.  It has it own spacing.  There are no sharing space. Block elements can be nested or block elements inside another block elements.  It gets padding and border and margin.  Block elements divides the margin top and bottom by two if the margin is same px.  On the other hand, block element takes the larger margin top and bottom if the margin is different px; e.g. top block element margin 100px and bottom block element margin 25px.  The margin between the 100px and the 25px uses top block element 100px.  */
+/* Inline elements are <span> elements and images. Inline elements are stacked side by side.  Size accordingly to the content size.  It's doesn't go top down.  It gets padding and border.  The margin is different.  Img margin is margin surrounding the image.  Img margin adds the margin top and bottom.  span margin is margin on the left and right only.  */
+/* Convert block into an inline and vice versa.  Inline to block more widely used. Use display element display: block;*/
+div {
+
+margin: 25px;
+border-color: black;
+border-width: 2px;
+border-style: solid;
+padding: 10px;
+background-color: yellow;
+}
+
+img.special {
+
+margin: 25px;
+border: black 2px solid;
+padding: 10px;
+background-color: yellow;
+
+}
+
+/* image as block element are stacked top down instead of side by side.  There's no margin in images as a block element.  Browser adds a default margin if images are inline and no margin specify.  */
+/* Centering images the images must be as a block element.  Use margin-left: auto; and margin-right: auto; to center */
+img.specialconvertinlinetoblock {
+
+border: black 2px solid;
+padding: 10px;
+background-color: yellow;
+display: block;
+margin-left: auto;
+margin-right: auto;
+
+}

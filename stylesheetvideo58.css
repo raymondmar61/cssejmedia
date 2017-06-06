@@ -1,0 +1,8 @@
+#box1 {
+	width: 800px;
+	height:300px;
+	float: left;
+	background: blue;
+	background: linear-gradient(rgba(255,255,0,0.3), rgba(0,0,255,1.0));
+	/*rgba Red Green Blue Alpha. Alpha defines opacity 0.0-1.0 full transparent to zero transparent.  */
+}

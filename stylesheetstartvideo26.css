@@ -1,0 +1,46 @@
+/* Cascading Style Sheets is a style sheet language used for describing the look and formatting of a document written in a markup language.  Simple explanation adds style to HTML.  Control web pages look without changing your HTML. */
+/*  Each style is called a property {property: value1; value2; value3; . . . }  The semicolon is a break. */
+/*  We create a rule for h1.  h1 is a rule.  It's like a global rule. */
+/*  font color is {color:;} */
+
+/* three ways to mention color: primary colors, RGB rgb(240,28,235);, hexcode #ffcf79;
+/* 16 primary colors call by name: aqua, black, blue, fuchsia, gray, green, lime, maroon, navy, olive, purple, red, silver, teal, white, yellow */
+
+/* font-size sizes denote in pixes px, % (increase or decrease from default font size in pixes), em, keywords */
+/* keywords: xx-small, x-small, small which is 13px, medium which is 16px, large which is 18px, x-large, xx-large*/
+
+/* line-height property adds spaces between lines specified in pixes, %, or em. */
+
+/* CSS Box Model.  There are four boxes from in to out:  content, padding, border, margin.  Content box, the most inner box includes text, images, videos.  Every single CSS element on the webpage has the four boxes including body.  p.paragraph4 has all four.  */
+/* The browser automatically adds margin between elements.  */
+/* margin and padding options -left, -right, -top, -bottom; e.g. margin-top: 50px; However, can combine padding properties into one; i.e. don't have to type out padding-top, padding-bottom, etc.  e.g. Padding: 20px 20px 20px 70px; (top, right, left, bottom respectively)  Also, typing Padding: 20px one px number applies to top, right, left, bottom.  */
+/* Likewise can combine border properties.  e.g. border: black 2px solid; border-color: name, RGB, Hex code border-width: thin, medium, thick or use px border-style: solid, dashed, dotted, double, groove, ridge, inset, outset */
+/* Curving border.  border-radius: use px; These four specifically specificy which corner is curved:  border-bottom-left-radius:;, border-bottom-right-radius:; border-top-left-radius:; border-top-right-radius:; */
+/*  These four work for a specific side:  border-bottom border-top border-right border-left can apply these against style, width, color.  e.g. border-bottom-style: dotted; A specific side overrides the general border CSS */
+/* Instructor prefers type out padding and border properties.  No short cut. */
+/* background-color applies to padding and content only. */
+/* Eliminate margin.  Type margin: 0; Be aware another html element has margin which may give the margin: 0 a margin.*/
+/*  DIV hmtl element is used to divide your webpage into logical sections.  A webpage layout.  */
+/* SPAN html element is similar to DIV.  SPAN operates on a smaller scale.  A SPAN element is in-line and selects a small chunk of HTML such as text inside a paragraph.  DIV selects several elements and SPAN works against HTML inside an element */
+
+/* body{color: green; font-family: verdana, Arial, Geneva, Arial Black; font-weight: bolder; background-color: #ffcf79; font-size: 25px; border-color: aquamarine; border-width: 4px; border-style: solid;} Example with border CSS*/
+body{color: green; font-family: verdana, Arial, Geneva, Arial Black; font-weight: bolder; background-color: #ffcf79; font-size: 25px;}  /* Default color is green.  Inheritance.  If an element has another color, the element color overrides body green color. */ /* font-family browser loads default font type priority from left to right.  If browser can't load all fonts, then browser loads default font type from user's computer settings.  Any element with its own font-family overrides the body font-family default font */ /* font-weight four choices: lighter, normal, bold, bolder */
+h1 {color: green; text-decoration: underline; font-size: 150%; text-align: center;} /* 150% or 1.5 * 25 = 37.5 increase over default font size; in this case default font size is 25px.  Relative measure from default font-size. text-align center, right, or left. */
+h2 {color: green; text-decoration: underline; font-size: 1.2em; text-align: right;} /* 1.2 * 25 = 30 increase over default font size; in this case default font size is 25px.  Relative measure from default font-size. text-align center, right, or left.  */
+/* h1, h2 {text-decoration: underline;} /* options text-decoration underline, line-through, overline (line above text), underline overline, none */
+/* h1, h2 {border-bottom: 1px solid black;} */
+h3 {color: green; text-decoration: underline;} 
+p.paragraph {font-size: 15px; line-height: 1.5em; background-color: #e5e4d7; padding: 20px 20px 20px 70px; border: black 2px solid; border-bottom-style: dotted; border-top-color: red; background-image: url(purple.jpg); border-radius: 10px;} /* background-color showing the content, padding, border are three of the four boxes.  The fpurth box is the margin.  */
+/* The ID Attribute works the same way as htmlelement.classattributename such as p.paragraph.  The ID Attribute works for a one time CSS attributes. Unique CSS attributes to one specific section on a webpage.  Use the hashtag # */
+#paragraph4homepage {font-size: 15px; line-height: 1.5em; background-color: #e5e4d7; padding: 20px; border-color: #296A64; border-width: thick; border-style: ridge; margin: 20px; margin-top: 50px; margin-left: 400px;}
+img.imagec{display: block; text-align: center; margin-left: auto; margin-right: auto; padding: 3px; background-color: silver; border-color: black; border-width: 2px; border-style: solid; } /* set left and right margins to auto which allows us to center the image--horizontal center */
+/* # denotes ID. . denotes Class */
+#paragraph1 {color: blue;}
+#divmain {color: black;}
+#divbass {color: black;}
+.divcontent {color: black;}
+.highlight{background-color: #ffff00;}
+/* These a classes are called sudo classes.  You don't specify a class in the HTMl tag.  There's no class in the <a> element. Sudo class is denoted with a colon.  */
+a:link {color: blue;}
+a:visited{color: #8c8c9d;}
+a:hover{color: #F15A51;}

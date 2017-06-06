@@ -1,0 +1,41 @@
+#nav {
+
+background-color: darkgreen;
+height: 35px;
+font-size: 25px;
+font-weight:bold;
+font:Tahoma;  
+
+} 
+
+#nav ul {
+   
+padding: 0; /* eliminate the padding the browser adds on li bullets */
+margin: 0; /* eliminate the margin  the browser adds on li bullets  */
+list-style-type: none; /* eliminate the acutal black circle bullet points */
+text-align: center;
+
+} 
+
+#nav li {
+   
+display: inline; /* links to be horizontal, side-by-side horizontally; default is block elements top-down */
+padding:15px;
+vertical-align:middle; /* centers the text inside the section */
+} 
+
+#nav a {
+   
+text-decoration:none; /* remove the underline in links */
+padding: 8px 8px 8px 8px; /* around the content.  My guess is left, top, right, bottom respectively */
+color: white;
+vertical-align:middle
+} 
+
+/* create a contrast when the user hovers the mouse over the link */
+#nav a:hover {
+  
+color: black;
+background-color:white;
+
+}

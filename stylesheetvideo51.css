@@ -1,0 +1,42 @@
+#left {
+	width: 300px;
+	float: left;
+	padding: 15px;
+	margin: 10px;
+	background-color: #FFFFFE;
+	
+}
+
+#center {
+	width: 300px;
+	float: left;
+	padding: 15px;
+	margin: 10px;
+	background-color: #ECF1EF;
+	
+}
+
+#right {
+	width: 300px;
+	float: left;
+	padding: 15px;
+	margin: 10px;
+	background-color: #EBECE4;
+	
+}
+
+
+#left, #center, #right {
+	border: solid 2px orange;
+}
+
+#left, #center, #right {
+	border: solid 2px green;
+}
+
+/* sibling selector.  h2 and p are sibling selectors to div.  h2 is directly adjacent to p.  Use h2+p.  */
+/* sibling selector.  h2 and all p sibling selectors to div.  h2 is directly adjacent to all p.  Use h2~p */
+/* * is the wild card.  Asterik.  Selects every element in the webpage.  Instructor never used wild card.
+h2~p {
+	color: red;
+}

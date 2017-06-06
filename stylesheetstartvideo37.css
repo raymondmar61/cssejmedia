@@ -1,0 +1,58 @@
+/* cursor properties default, inherit, auto, URL (use for a custom cursor), crosshair, pointer, move, text, help, hand, no-drop, alias, progress, wait, grab, grabbing, copy, cell, spinning, none*/
+
+body {
+background-color: #9c9f84;
+}
+
+.main {
+background-color: #e5e4d7;
+border-radius: 5px;
+padding:10px;
+cursor: help; /*override default cursor to the question pointer */
+}
+
+.button {
+background: #e7e7e7;
+border: 1px solid;
+border-radius: 3px;
+box-sizing: border-box;
+display: block;
+font: 700 13px Verdana, Georgia, serif;
+height: 30px;
+line-height: 28px;
+padding: 0 20px;
+margin:0 auto;
+}
+
+.buttoncustom {
+background: #e7e7e7;
+border: 1px solid;
+border-radius: 3px;
+box-sizing: border-box;
+display: block;
+font: 700 13px Verdana, Georgia, serif;
+height: 30px;
+line-height: 28px;
+padding: 0 20px;
+margin:0 auto;
+}
+
+a {
+color: #666;
+text-decoration: none;
+float: left; 
+}
+
+a:hover {
+color: #000;
+background-color: #dadada;
+cursor: move; /*override default cursor to the four direction arrow */
+/* cursor: URL("tomtom.ico"), default; /* Include default in case browswer can't display cursor's URL */
+}
+
+ul {
+    width: auto;
+    padding: 0;
+    margin: 12 0 0 18;
+    list-style-type: none;
+}

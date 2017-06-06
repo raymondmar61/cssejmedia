@@ -1,0 +1,49 @@
+#left {
+	width: 300px;
+	float: left;
+	padding: 15px;
+	margin: 10px;
+	background-color: #FFFFFE;
+	
+}
+
+#center {
+	width: 300px;
+	float: left;
+	padding: 15px;
+	margin: 10px;
+	background-color: #ECF1EF;
+	
+}
+
+#right {
+	width: 300px;
+	float: left;
+	padding: 15px;
+	margin: 10px;
+	background-color: #EBECE4;
+	
+}
+
+
+#left, #center, #right {
+	border: solid 2px orange;
+}
+
+#left, #center, #right {
+	border: solid 2px green;
+}
+
+h2~p {
+	color: red;
+}
+
+/* Attribute selectors is denoted with square brackets.  Other examples are href, src, */
+/* To background color all language, type p[lang] { ... */
+/* Associate a specific attribute, type p[lang="specified attribute"] { ...*/
+/* Any value beginning with fr, type p[lang^="fr"] { ... */	
+/* Any value ending with o, type p[lang$="o"] { ... */	
+/* Any value anywhere with us, type p[lang*="us"] { ... */
+p[lang*="us"] { 
+    background-color: orange;
+}

@@ -1,0 +1,34 @@
+<!doctype html>
+
+<html>
+
+<head>
+
+<link rel="stylesheet" type="text/css" href="stylesheetvideo40.css">
+<title>CSS tutorial Video 40 Relative Positioning</title>
+</head>
+<body>
+
+<div id="main1">
+
+<p> A paragraph 1</p>
+<p> A paragraph 2</p>
+<p> A paragraph 3</p>
+<p id="par"> A paragraph</p> <!-- If position: relative, the par position is determined by the STATIC element which is A paragraph 3 -->
+
+</div>
+
+<div id="main2">
+
+<p> A paragraph 4</p>
+<p> A paragraph 5</p>
+<p> A paragraph 6</p>
+<div id="square"> </div>  <!-- If position: relative, the square position is determined by the STATIC element which is A paragraph 6  -->  <!-- If I wanted the square in an absolute position inside main2, main2 needs a position: relative in main2 css.  main2 is no longer static.  It's non-static because it's relative. -->
+
+</div>
+
+<p>Static is the default and this is the flow.  Static is the flow.  Relative is the position determined by first STATIC element:  top, bottom, left, right.  Absolute is the position determined by first NON-STATIC element:  top, bottom, left, right.  In other words, absolute pays no attention to any STATIC elements.  Render against the browser window by default.  </p>
+
+</body>
+
+</html>

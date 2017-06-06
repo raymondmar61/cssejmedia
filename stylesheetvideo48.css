@@ -1,0 +1,54 @@
+/* The Type Selectors - select by element by type ===================== */
+/* e.g. h1, h2, h3, p, div */
+
+h1 {  
+
+color:blue;
+
+}
+
+/* The ID Selector - select element with # ============================ */
+/* id="name" Used as a one time shot.  One element to style one time.  */
+
+#para1 {  
+
+color:green;
+
+}
+
+/* The Class Selector - select element with . ========================= */
+/* class="name" Reuse over and over many times.  */
+
+.para {  
+
+color:orange;
+
+}
+
+/* Combine Selectors - ================================================ */
+/* Put multiple elements in one rule set.  Separate with commas.  */
+
+h2, h3, #para1  {  
+
+text-decoration: underline;
+
+
+}
+
+/* The Descendant Selector - select element inside another element ==== */
+/* A relationship element Parent-->child-->child.  No commas.  Separate with a space. */
+
+div p {  
+
+font-style: italic;
+
+}
+
+/* The Child Selector - selects DIRECT CHILD element ==================== */
+/* parentelement.classname>childelement childelement must be a direct child to parentelement */
+
+blockquote.test>b {  
+
+color:purple;
+
+}

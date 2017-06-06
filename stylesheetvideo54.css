@@ -1,0 +1,43 @@
+#left {
+	width: 300px;
+	float: left;
+	padding: 15px;
+	margin: 10px;
+	background-color: #FFFFFE;
+	border: solid 2px green;
+	
+}
+
+#center {
+	width: 300px;
+	float: left;
+	padding: 15px;
+	margin: 10px;
+	background-color: #ECF1EF;
+	border: solid 2px green;
+}
+
+#right {
+	width: 300px;
+	float: left;
+	padding: 15px;
+	margin: 10px;
+	background-color: #EBECE4;
+	border: solid 2px green;
+}
+
+p {
+
+color: red;
+	
+}
+
+
+/* sudo selector.  Need a colon. */
+/* The selector goes inside the paranthesis, not the HTML element.   */
+/* The example below tells all selectors except p selector to change font color to darkgreen.  All other elements font color is darkgreen. If there was no p selector, then all font color is darkgreen.  */
+:not(p) {
+
+color: darkgreen;
+
+}

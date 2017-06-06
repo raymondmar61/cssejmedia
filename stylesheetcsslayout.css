@@ -1,0 +1,160 @@
+/* ============ LAYOUT SECTION ========== */
+
+body {
+	background-color: #9c9f84;
+	margin: 0px;
+	font-family: Verdana, Georgia, serif;
+	font-size: 14px;
+
+}
+
+#header {
+	background-color: #5c755e;
+	margin: 10px;
+	height: 90px;
+	border-radius: 5px;
+
+}
+
+/*#navbar {
+	background-color: #5c755e;
+	margin: 10px;
+	height: 35px;
+	border-radius: 5px;
+}*/
+
+#navbar ul {
+	padding: 5px;
+	list-style-type: none; /* removes the bullet points */
+	text-align: center; /* center bullets */
+	background-color: #000;
+	margin: 10px;
+	border-radius: 5px;
+}
+
+#navbar ul li {
+	display: inline; /* buttons in navbar display side by side */
+}
+
+#navbar ul li a {
+	text-decoration: none; /* remove the underline anchors */
+	font-family: Arial;
+	padding: .2em 1em; /* */
+	color: #fff; /* white color text */
+	background-color: #000; /* black color background */
+}
+
+#navbar ul li a:hover {
+	color: #000;
+	background-color: #fff;
+}
+
+.main {
+	background-color: #e5e4d7;
+	/* margin: 10px; removed because of sideright navigation bar */
+	margin-left: 10px;
+	margin-right: 320px; /* 260px width + 20px padding right + 20px padding left + 10px margin right + 10 px margin left = 320px*/
+	margin-top: 10px;
+	margin-bottom: 10px
+	border-radius: 5px;
+	padding: 20px;
+	font-size: 110%; /* 110% of default size 14px from body */
+}
+
+.sideright {
+	background-color: #e5e4d7;
+	/* margin: 10px; removed because it's not in the flow */
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	padding: 20px;
+	font-size: 105%;
+	float: right;
+	width: 260px;
+	clear: right;
+
+}
+
+.imagesidebar {
+	/* margin: 10px; removed because it's not in the flow */
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	float: right;
+	width: 300px; /* 20 padding + 20 padding = 40px added from 260px because there is no padding */
+	clear: right;
+	opacity: 1.0;
+	transition: opacity 1s ease-in-out; /* assign a time for opacity transition from 1.0 to 0.4 in 1s */
+}
+
+.imagesidebar:hover {
+	opacity: 0.4;
+}
+
+#footer {
+	background-color: #5c755e;
+	margin: 10px;
+	height: 60px;
+	clear: both; /* protects all elements.  Use both to protect right and left */
+	border-radius: 5px;
+	color: #efe5d0;
+	text-align: center;
+	padding: 15px;
+	font-size: 90%;
+
+}
+
+#footer ul {
+	padding: 5px;
+	list-style-type: none; /* removes the bullet points */
+	text-align: center; /* center bullets */
+	margin: 10px;
+	border-radius: 5px;
+}
+
+#footer ul li {
+	display: inline; /* buttons in footer display side by side */
+}
+
+#footer ul li a {
+	text-decoration: none; /* remove the underline anchors */
+	font-family: Arial;
+	padding: .2em 1em; /* */
+	color: #efe5d0; /* white color text */
+	background-color: #5c755e; /* black color background */
+}
+
+#footer ul li a:hover {
+	color: #000;
+	background-color: #fff;
+}
+
+/* ============ HEADINGS SECTION ========== */
+
+h1 {
+	font-size: 120%;
+	color: #ce282e;
+}
+
+h2 {
+	font-size: 120%;
+	color: darkblue;
+}
+
+h3 {
+	font-size: 250%; 
+	text-align: center;
+	color: #e5e4d7;
+	font-family: "Century Gothic", "Gill Sans", Arial, sans serif;
+	margin: 0px; /* h3 inherit the 10px margin from #header */
+	/* CSS rules below to center vertically */
+	position: relative;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}

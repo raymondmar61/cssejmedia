@@ -1,0 +1,11 @@
+/* Elements are divided into a block element and an inline element.  */
+/* Block elements is an element extends from the left to the right.  It has it own spacing.  There are no sharing space. Block elements can be nested or block elements inside another block elements.  */
+/* Inline elements are <span> elements and images. Inline elements are stacked side by side.  Size accordingly to the content size.  It's doesn't go top down. */
+h1 {background-color: green; color: yellow;}
+/* # denotes ID */
+#h1300px {background-color: green; color: yellow; width: 300px;}
+p {background-color: green; color: yellow;}
+/* . denotes class */
+p.test {background-color: green; color: yellow; border-color: orange; border-width: 2px; border-style: solid;}
+h2 {background-color: green; color: yellow;}
+div {background-color: green; color: yellow;}

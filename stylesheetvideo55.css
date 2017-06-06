@@ -1,0 +1,40 @@
+#left {
+	width: 300px;
+	float: left;
+	padding: 15px;
+	margin: 10px;
+	background-color: #FFFFFE;
+	border: solid 2px green;
+	
+}
+
+#center {
+	width: 300px;
+	float: left;
+	padding: 15px;
+	margin: 10px;
+	background-color: #ECF1EF;
+	border: solid 2px green;
+}
+
+#right {
+	width: 300px;
+	float: left;
+	padding: 15px;
+	margin: 10px;
+	background-color: #EBECE4;
+	border: solid 2px green;
+}
+
+/* Selects first letter in an element.  Need double colon for the sudo  */
+p::first-letter {
+font-weight:bold;
+font-size: 24px;
+
+}
+
+/* Selects first line in an element.  Need double colon for the sudo  Good for banners and advertisetement to catch attention for the reader.  Use one colon for the sudo.  */
+p:first-line {
+color:red;
+
+}

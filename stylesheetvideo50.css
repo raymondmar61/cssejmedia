@@ -1,0 +1,37 @@
+#left {
+	width: 300px;
+	float: left;
+	padding: 15px;
+	margin: 10px;
+	background-color: #FFFFFE;
+	
+}
+
+#center {
+	width: 300px;
+	float: left;
+	padding: 15px;
+	margin: 10px;
+	background-color: #ECF1EF;
+	
+}
+
+#right {
+	width: 300px;
+	float: left;
+	padding: 15px;
+	margin: 10px;
+	background-color: #EBECE4;
+	
+}
+
+
+/* Save time.  Create another section for CSS sharing attributes */
+#left, #center, #right {
+	border: solid 2px green;
+}
+
+/* Prescedence.  The last rule takes prescendence.  The bottom CSS. */
+#left, #center, #right {
+	border: solid 2px orange;
+}

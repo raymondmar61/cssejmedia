@@ -1,0 +1,34 @@
+.button {
+
+background: #e7e7e7;
+border: 1px solid;
+border-radius: 3px;
+font: 700 13px Helvetica,Arial; /* the 700 number is how bold the font bold is */
+height: 30px;
+line-height: 28px; /* centers the text in the middle of the button.  Set the line-height equal to the height.  Instructor wants it a little less than height */
+padding: 0 20px; /* first value is top and bottom; second value is right and left. */
+text-align: center;
+margin-right: 10px; /* don't want margin top, bottom, left, right of button.  Good idea to space out buttons using their margin right */
+box-sizing: border-box; /* gives it a box effect.  much more attributes for box-sizing */
+}
+
+ul {
+
+    padding: 0;
+    list-style-type: none; /* get ride of the black bullet circles */
+}
+
+li {
+	display:inline; /* display side-by-side */
+	}
+
+a {
+color: #666;
+text-decoration: none; /* get rid of underlining in links */
+float: left; /* increase the size of the button.  Accept this at the moment */
+}
+
+a:hover {
+color: #000; /* stronger black */
+background-color: #dadada;
+}
